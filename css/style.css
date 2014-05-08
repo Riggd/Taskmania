@@ -1,0 +1,64 @@
+/*
+    MAIN STYLES
+*/
+
+body {
+    color: rgb(74,152,176);
+    background: rgb(210,210,210);
+}
+
+.container {
+    width: 30em;
+    margin: 0 auto;
+}
+
+/*
+    TODO LIST STYLES
+*/
+
+.todo-title {
+    color: #57A5BD;
+    font: 600 3em 'Raleway';
+    margin-top: 2em;
+    text-align: center;
+}
+
+.todo-list {
+    border: none;
+    box-shadow: 3px 3px 0 rgb(100,178,202);
+    min-height: 20em;
+    margin: 3em 0 2em;
+    background: rgb(255,255,255);
+    padding: 1em;
+}
+
+.add-task input[type="text"] {
+    border: none;
+    box-shadow: 3px 3px 0 rgb(100,178,202);
+    color: #999999;
+    font: 400 1.3em 'Raleway';
+    display: block;
+    padding: 1em;
+    width: 21em;
+}
+
+.todo-list li {
+    font-size: 1.5em;
+    overflow: hidden;
+    padding: .5em;
+    font: 400 1.3em 'Raleway';
+}
+
+.todo-list li .delete-button {
+    cursor: pointer;
+    float: right;
+    height: auto;
+    opacity: 0.5;
+    padding: .5em;
+    vertical-align: top;
+    width: .5em;
+}
+
+.todo-list li  .delete-button:hover {
+    opacity: 1;
+}
