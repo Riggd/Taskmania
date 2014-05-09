@@ -17,12 +17,16 @@
             <ul>
                 <?php 
                     require('includes/connect.php');
-                    include('includes/view-task.php');
+                    
                 ?>
             </ul>
         </div>
+        <div class="tabs">
+            <button type="button" class="task-button">Tasks</button>
+            <button type="button" class="archive-button">Archive</button>
+        </div>
         <form class="add-task" autocomplete="off">
-            <input type="text" name="new-task" placeholder="Oh, shit I have to..." />
+            <input type="text" name="new-task" placeholder="Oh, shit I have to..." </button>
         </form>
     </div>
     
